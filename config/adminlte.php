@@ -320,10 +320,12 @@ return [
                 [
                     'text' => 'Listado de roles',
                     'url' => 'admin/roles',
+                    'classes' => 'bg-white text-black',
                 ],
                 [
                     'text' => 'Crear rol',
                     'url' => 'admin/roles/create',
+                    'classes' => 'bg-white text-black',
                 ],
             ],
         ],
