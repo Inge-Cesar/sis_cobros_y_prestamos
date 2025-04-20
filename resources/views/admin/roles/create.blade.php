@@ -26,7 +26,7 @@
                                     </div>
                                     <input type="text" class="form-control" name="name" placeholder="Escribe aquí..." required>
                                 </div>
-                                @error('nombre')
+                                @error('name')
                                 <small style="color: red; font-size: 12px;">{{ $message }}</small>
                                 @enderror
                             </div>

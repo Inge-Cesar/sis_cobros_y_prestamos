@@ -330,6 +330,23 @@ return [
             ],
         ],
         
+        [
+            'text' => 'Usuarios',
+            'icon' => 'fas fa-fw fa-users',
+            'classes' => 'bg-blue text-white',
+            'submenu' => [
+                [
+                    'text' => 'Listado de usuarios',
+                    'url' => 'admin/usuarios',
+                    'classes' => 'bg-white text-black',
+                ],
+                [
+                    'text' => 'Crear usuario',
+                    'url' => 'admin/usuarios/create',
+                    'classes' => 'bg-white text-black',
+                ],
+            ],
+        ],
        
         
        
